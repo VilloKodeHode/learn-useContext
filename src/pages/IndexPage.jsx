@@ -8,7 +8,7 @@ export const IndexPage = () => {
   return (
     <main className="min-h-[calc(100vh-80px)]">
       <section className="bg-slate-500 min-h-[calc(100vh-80px)] gap-8 justify-center items-center flex flex-col">
-        <h1>Counter</h1>
+        <h1>Counters</h1>
         <div className="grid gap-4">
           <div className="flex gap-4"></div>
           <p className="px-4 py-2 mx-auto text-3xl rounded-full shadow-inner shadow-black w-fit bg-slate-600">{count}</p>
